@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Form Pendaftaran</h2>
+        <form action="#" method="POST" class="form-container shadow">
+            <div class="form-group">
+                <label for="name">Nama:</label>
+                <input type="text" class="form-control" placeholder="Masukkan Nama" name="nama" id="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" placeholder="Masukkan Email" name="email" id="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" class="form-control" placeholder="Masukkan Password" name="password" id="password" required>
+            </div>
+
+            <div class="form-group">
+                <label for="jk">Jenis Kelamin:</label>
+                <select class="form-control" id="jk" name="jk" required>
+                    <option value="">Pilih Jenis Kelamin</option>
+                    <option value="Pria">Pria</option>
+                    <option value="Wanita">Wanita</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p> Prince Wanei | 220211060023</p>
+    </footer>
+    
+</body>
+</html>
